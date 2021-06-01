@@ -1,0 +1,41 @@
+﻿<Application x:Class="OpenWork_Notepad.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OpenWork_Notepad" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="MainWindow.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme PrimaryColor="blue" SecondaryColor="purple" BaseTheme="light" />
+                <ResourceDictionary Source="pack://application:,,,/mahapps.metro;component/styles/controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/mahapps.metro;component/styles/fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/materialdesignthemes.wpf;component/themes/materialdesigntheme.defaults.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/materialdesignthemes.wpf;component/themes/materialdesigntheme.light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/materialdesigncolors;component/themes/recommended/primary/materialdesigncolor.deeppurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/materialdesigncolors;component/themes/recommended/accent/materialdesigncolor.lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <!--<Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                --><!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! --><!--
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                --><!--<ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />-->
+                
+                
+                <!-- Accent and AppTheme setting --><!--
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Indigo.xaml" />
+                --><!--<ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Dark.Steel.xaml" />--><!--
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>-->
+</Application>
